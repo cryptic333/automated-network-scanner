@@ -1,0 +1,16 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2024-07-12 18:30 UTC
+Nmap scan report for 192.168.1.1
+Host is up (0.00042s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Vulnerabilities:
+- SSH Service running on port 22 is outdated.
+- HTTP Server on port 80 is using default configurations.
+
+Recommendations:
+- Update the SSH Service to the latest version.
+- Secure the HTTP Server with stronger configurations and disable unnecessary modules.
